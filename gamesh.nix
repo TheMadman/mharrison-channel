@@ -4,8 +4,8 @@ stdenv.mkDerivation {
 	version = "0.0.1";
 	src = fetchFromRepo {
 		repo = "gamesh";
-		rev = "e3092518d52a58ec6f1aaa9ea45269e5ffd103d8";
-		hash = "sha256-earIZucAMGGcBgZoPQnMKk3hLmUQ07GkqH+FoTY9kyc=";
+		rev = "d3b2d180bc18947819d290ac3b90a37ecbad70af";
+		hash = "sha256-31klCehBA+BP08RTcwdvt+TeuL8OitIRUym30xbRYx8=";
 	};
 	
 	buildInputs = [
