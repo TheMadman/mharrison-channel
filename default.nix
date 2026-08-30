@@ -20,6 +20,7 @@ let
 		scallop-lang = callPackage ./scallop-lang.nix {};
 		srvsh = callPackage ./srvsh.nix {};
 		srvsh-util = callPackage ./srvsh-util.nix {};
+		paint = callPackage ./paint.nix {};
 	};
 in
 mharrison-pkgs
