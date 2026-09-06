@@ -1,4 +1,4 @@
-{ stdenv, gamesh, sdl3, srvsh, fetchFromRepo }:
+{ stdenv, gamesh, sdl3, srvsh, libadt, fetchFromRepo }:
 stdenv.mkDerivation {
 	pname = "paint";
 	version = "0.0.1";
@@ -8,5 +8,9 @@ stdenv.mkDerivation {
 		hash = "sha256-8GD1sMc502UhzfV4fNQhGCfmpH34HTDuEQBFdI4KaVQ=";
 	};
 
-	buildInputs = [gamesh sdl3 srvsh];
+	buildInputs = [gamesh sdl3 srvsh libadt];
+
+	makeFlags = [
+		"PREFIX=$(out)"
+	];
 }

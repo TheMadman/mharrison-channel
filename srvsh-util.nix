@@ -9,5 +9,9 @@ stdenv.mkDerivation {
 	};
 
 	propagatedBuildInputs = [srvsh];
+
+	makeFlags = [
+		"prefix=$(out)"
+	];
 }
 
