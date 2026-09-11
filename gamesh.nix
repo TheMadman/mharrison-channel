@@ -4,10 +4,10 @@ stdenv.mkDerivation {
 	version = "0.0.1";
 	src = fetchFromRepo {
 		repo = "gamesh";
-		rev = "f2491c275c30baea4513dff239e9a24bda85877b";
-		hash = "sha256-qFIT4xMilDuX4R7Vwq0qGWH6ylXimFW1CdfDn0284ys=";
+		rev = "1ec212bf191a0303ee176cb975b5191c4f76fc5f";
+		hash = "sha256-8SOXSAnYPa5FrLy0AJHzdzMo0UUg9CvOiXTe+1oW/Os=";
 	};
-
+	
 	buildInputs = [
 		sdl3
 		libadt
