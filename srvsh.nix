@@ -4,8 +4,8 @@ stdenv.mkDerivation {
 	version = "0.0.1";
 	src = fetchFromRepo {
 		repo = "srvsh";
-		rev = "0c5d1694cdbf0649927038ec489d7fccc56978e6";
-		hash = "sha256-K6YtUMlsHwe+LdF/ZME20oV1cth8xYMQLTqtjEKzRA8=";
+		rev = "100d8c91b23e6022de20953ee2f973a0fb32c4df";
+		hash = "sha256-8tWYWT0JMPKbbYlxBpQyRb/4Q1mhJt5/vdZhEGh/4uY=";
 	};
 
 	buildInputs = [
